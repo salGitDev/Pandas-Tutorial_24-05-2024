@@ -1,0 +1,9 @@
+# 24-05-2024
+# 1. pandas
+# 2. openpyxl
+#x.columns() return the column headers
+
+import pandas as pd
+df = pd.read_csv('pokemon_data.csv')
+headData = df.head(3)
+tailData = df.tail(3)
